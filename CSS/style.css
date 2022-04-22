@@ -1,0 +1,193 @@
+@media print {
+    body { font-size: 10pt }
+  }
+  @media screen {
+    body { font-size: 13px }
+  }
+  @media screen, print {
+    body { line-height: 1.2 }
+  }
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      body { line-height: 1.4 }
+  }
+
+
+
+body{
+
+    background-color: red;
+}
+            
+
+
+nav li{
+    display:inline-block;
+    width:200px;
+    padding:5px 10px;
+    padding: 15px;
+    background-color:black;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    font-size: medium;
+   
+}
+
+nav li:hover{
+    background-color: yellow;
+    color:#000;
+}
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+ul{
+    width: 100%;
+    height: 300px;  
+}
+
+.form{
+    background-color: lightcoral;
+    height: 610px;
+    width: 40%;
+    margin-left: 40px; 
+    border-radius: 10px;
+    
+}
+
+.formulario{
+    margin-left: 70px;
+    
+}
+
+.parrafo{
+    margin-left: 15px;
+    background-color: white;
+}
+
+h1{
+    color:  orange;
+    margin-top: -400px;
+    margin-left: 820px; 
+    font-size: 40px;
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+textarea{
+    max-width: 250px;
+    max-height: 150px;
+}
+
+.conteLogo{
+    background-color: lightseagreen;
+    height: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 85%;
+
+}
+
+button{
+    margin-left: 240px;
+    margin-top: 10px;
+
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    width: 100px;
+    height: 40px;
+
+    background-color: lightblue;
+
+}
+
+button:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+article{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+}
+
+#texto{
+    font-size: large;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.fondo{
+    background-color: white;
+    height: 850px;
+    width: 90%;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+label{
+    font-size: larger;
+}
+
+fieldset{
+    height: 640px;
+    width: 500px;
+    margin-left: 650px; 
+    margin-top: 30px;
+}
+
+legend{
+    font-size: medium;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 1482px;    
+    height: 100px;
+    margin-left: -10px;
+    display: inline-block;
+}
+#face{
+    width: 70px;
+    height: 40px;
+    margin-left: 150px;
+}
+
+#twit{
+    width: 70px;
+    height: 40px;
+    margin-left: 0px;
+}
+
+#utub{
+    width: 70px;
+    height: 40px;
+    margin-left: 0px;
+}
+
+#ig{
+    width: 75px;
+    height: 45px;
+    margin-left: 0px;
+}
+
+.imagenes{
+    margin-left: 200px;
+}
+
+#parraFoot{
+    margin-top: -30px;
+    margin-left: 510px;
+    font-size: 17px;
+}
